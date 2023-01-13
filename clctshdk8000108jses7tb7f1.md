@@ -1,7 +1,5 @@
 # On-policy and Off-policy algorithms in Reinforcement Learning
 
-## Introduction to Reinforcement Learning (RL)
-
 Reinforcement learning (RL) is a type of machine learning that enables agents to learn how to make decisions by interacting with an environment. The agent learns to maximize a reward signal by trying different actions and observing the resulting rewards. RL has been used in a wide range of applications, including robotics, game-playing, navigation, control, and recommendation systems.
 
 ## On-policy and Off-policy RL
