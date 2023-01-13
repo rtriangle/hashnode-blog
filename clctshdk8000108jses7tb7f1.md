@@ -31,7 +31,7 @@ We will focus mainly on **SARSA** and **REINFORCE** today.
 
 **SARSA (State-Action-Reward-State-Action)** is an on-policy algorithm that updates the action-value function (Q-function) based on the current policy. The Q-function represents the expected future reward for taking a certain action in a given state and following the current policy thereafter. The main formula used to update the Q-function in SARSA is the following:
 
-$$Q(s,a) = Q(s,a) + α * (r + \gamma * Q(s',a') - Q(s,a))$$
+Q(s,a) = Q(s,a) + α *(r + γ* Q(s',a') - Q(s,a))
 
 In this equation, Q(s,a) is the current estimate of the action-value function for state s and action a, α is the learning rate, r is the immediate reward received after taking action a in state s, γ is the discount factor, s' is the next state, and a' is the next action chosen according to the current policy. It's important to note that SARSA will always use the current policy to choose the next action, this could make it converge slower to the optimal policy compared to off-policy methods, but it will be more stable and less likely to experience a performance drop. Also depending on the problem and the environment, the step-size parameter α and discount factor γ, will have to be adjusted accordingly to get the best performance.
 
