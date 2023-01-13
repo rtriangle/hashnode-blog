@@ -82,7 +82,7 @@ Q-learning is an off-policy algorithm that updates the action-value function (Q-
 
 The main formula used to update the Q-function in Q-learning is the following:
 
-$$Q(s,a) = Q(s,a)$$
+$$Q(s,a) = Q(s,a)+α*(r+γ* max_a'(Q(s',a'))-Q(s,a))$$
 
 In this equation, Q(s,a) is the current estimate of the action-value function for state s and action a, α is the learning rate, r is the immediate reward received after taking action a in state s, γ is the discount factor, s' is the next state, and max\_a'(Q(s',a')) is the maximum expected future reward for all possible actions in the next state s' computed using the optimal policy.
 
