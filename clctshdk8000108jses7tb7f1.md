@@ -47,7 +47,7 @@ In this equation, Q(s,a) is the current estimate of the action-value function fo
     
     $$∇_θ log π(a_t|s_t; θ)$$
     
-3. Use these gradients to update the policy parameters θ using a chosen optimization algorithm, such as stochastic gradient ascent:  
+3. Use these gradients to update the policy parameters θ using a chosen optimization algorithm, such as stochastic gradient ascent:
     
     $$θ \leftarrow θ + α * ∇_θ J(θ)$$
     
