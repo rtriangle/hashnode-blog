@@ -100,6 +100,6 @@ In this equation, Q(s,a;θ) is the output of the Q-network for the state s and a
 
 It's important to note that DQN uses an off-policy approach, which means it uses experience replay, a target network, and fixed Q-targets in order to stabilize the learning process. Furthermore, DQN has been extended to many different variations like DDQN (Double DQN) which uses two networks to improve stability and more, and generally, many advanced techniques have been used along with DQN to improve its performance.
 
-### Summary
+## Summary
 
 On-policy and off-policy are two types of reinforcement learning algorithms that differ in how they use the data they collect. On-policy algorithms are more sample-efficient as they update the policy as soon as new data is collected. However, they are more sensitive to the initial policy and may get stuck in a suboptimal policy. Off-policy algorithms are less sensitive to the initial policy, but they require more data to converge and can be less sample-efficient.
