@@ -12,7 +12,7 @@ This field has been developing for a couple of years now and there are many Auto
 
 ### [AutoKeras](https://autokeras.com/)
 
-It is a popular open-source AutoML library in Python that allows users to easily build and train deep learning models without requiring deep expertise in the field. The library can be installed as a Python pip package and requires **Python &gt;= 3.7** and **TensorFlow &gt;= 2.8.0.** As can be understood from the name, the library uses Keras framework under the hood
+It is a popular open-source AutoML library in Python that allows users to easily build and train deep learning models without requiring deep expertise in the field. The library can be installed as a Python pip package and requires **Python &gt;= 3.7** and **TensorFlow &gt;= 2.8.0.** As can be understood from the name, the library uses Keras framework under the hood.
 
 AutoKeras automates the process of model selection, hyperparameter tuning, and architecture search. It uses a technique called [neural architecture search (NAS)](https://arxiv.org/pdf/1806.10282) to automatically find the best architecture for a given task. It is a process of searching for the best neural network architecture by evaluating multiple candidate architectures, either randomly or based on some predefined strategy. The library supports a variety of tasks such as image classification, regression, text classification, structured data classification, and time series forecasting. It also includes pre-processing modules for data augmentation, normalization and feature engineering.
 
