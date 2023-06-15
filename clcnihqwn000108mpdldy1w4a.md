@@ -1,4 +1,14 @@
-# Recommendation System Algorithms and Approaches
+---
+title: "Recommendation System Algorithms and Approaches"
+seoTitle: "Recommendation System Algorithms"
+seoDescription: "Recommendation systems are a type of ML algorithm that is designed to predict what a user might be interested in"
+datePublished: Sun Jan 08 2023 15:10:17 GMT+0000 (Coordinated Universal Time)
+cuid: clcnihqwn000108mpdldy1w4a
+slug: recommendation-system-algorithms-and-approaches
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Z2ImfOCafFk/upload/1f3931777dfeea640b2df289ceb23520.jpeg
+tags: algorithms, machine-learning, deep-learning, ml, recommender-systems
+
+---
 
 Recommendation systems are a type of machine learning algorithm that is designed to predict what a user might be interested in and present them with personalized recommendations. These systems are commonly used in a variety of applications, such as e-commerce websites, streaming platforms, and social media sites. Among a variety of recommendation algorithms, data scientists need to choose the best one according to a business’s limitations and requirements. Here is an overview of the main approaches to face the problem of relevant content recommendation.
 
@@ -88,3 +98,5 @@ Ranking is the process of ordering the candidates identified in the candidate ge
 ### Metrics
 
 There are several different metrics that are commonly used to evaluate the performance of machine learning recommendation systems. Along with the standard quality metrics, there are some metrics especially for recommendation problems: Recall@k and Precision@k, Average Recall@k, and Average Precision@k. Also, look at the great [description](https://www.bgu.ac.il/~shanigu/Publications/JMLRSurvey.pdf) of metrics for recommendation systems. Offline and online metrics for system evaluation are different: you may evaluate the candidate generation step with recall-type metric, and the ranking step with precision-type metric or [NDCG](https://en.wikipedia.org/wiki/Discounted_cumulative_gain). However, business metrics usually relate to overall user engagement of the system or different key business goals. The problem that may appear in such cases is called **Misaligned metrics**, where a positive impact on offline metrics doesn't necessarily lead to online business metrics improvement. During this article each stage included multiple hyperparameters that can be tuned, this situation is their finest hour.
+
+test
