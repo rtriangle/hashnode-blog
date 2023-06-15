@@ -1,4 +1,12 @@
-# On-policy and Off-policy algorithms in Reinforcement Learning
+---
+title: "On-policy and Off-policy algorithms in Reinforcement Learning"
+datePublished: Fri Jan 13 2023 00:36:33 GMT+0000 (Coordinated Universal Time)
+cuid: clctshdk8000108jses7tb7f1
+slug: on-policy-and-off-policy-algorithms-in-rl
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ZJKE4XVlKIA/upload/b520c35d3f54cc67a92ac96b7ed526eb.jpeg
+tags: optimization, algorithms, machine-learning, deep-learning, reinforcement-learning
+
+---
 
 Reinforcement learning (RL) is a type of machine learning that enables agents to learn how to make decisions by interacting with an environment. The agent learns to maximize a reward signal by trying different actions and observing the resulting rewards. RL has been used in a wide range of applications, including robotics, game-playing, navigation, control, and recommendation systems.
 
