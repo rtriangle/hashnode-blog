@@ -1,4 +1,12 @@
-# Multiple Python versions on Mac and how to set it up correctly
+---
+title: "Multiple Python versions on Mac and how to set it up correctly"
+datePublished: Thu Jan 19 2023 23:22:35 GMT+0000 (Coordinated Universal Time)
+cuid: cld3px8ii000009me2wvdbxdh
+slug: multiple-python-versions-on-mac-and-how-to-set-it-up-correctly
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/toA-KC8Kwys/upload/746936b887bd3b23d849428adbddb96e.jpeg
+tags: python, version-control, python3, python-beginner, python-projects
+
+---
 
 ### Introduction
 
